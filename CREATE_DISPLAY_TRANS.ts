@@ -42,7 +42,7 @@ export const CreateDisplayTrans = {
       de: "Standort",
     },
     Valuation: {
-      en: "Valuation",
+      en: "EValuation",
       de: "Bewertung",
     },
     playerToken: {
@@ -60,7 +60,7 @@ export const CreateDisplayTrans = {
               de: "Informationen zu Ihrem Digital Signage Gerät (Ihr Display)",
             },
             subtitle: {
-              en: "Your digital signage device can be an LCD screen, floor stand screen, tablet, LED video wall, LCD panel, smartphone, or any other digital display device. Select your device type on the next page.",
+              en: "Your digital signage device can be an LCD screen, floor standing screen, tablet, LED video wall, LCD panel, smartphone, or any other digital display device. Select your device type on the next page.",
               de: "Ihr Digital Signage Gerät kann ein LCD-Bildschirm, ein Bodenständerbildschirm, ein Tablet, eine LED-Videowand, ein LCD-Panel, ein Smartphone oder ein anderes digitales Ausgabegerät sein. Wählen Sie Ihren Digital Signage Gerätetyp auf der nächsten Seite aus.",
             },
           },
@@ -169,7 +169,7 @@ export const CreateDisplayTrans = {
                 de: "Informationen: Öffentlich / Privat",
               },
               subtitle: {
-                en: "Here you indicate who you want to make the information on your display accessible to.",
+                en: "Here you Specify to whom you want to make the information on your display accessible .",
                 de: "Hier geben Sie an, wem Sie die Informationen auf Ihrem Display zugänglich machen möchten.",
               },
             },
@@ -180,7 +180,7 @@ export const CreateDisplayTrans = {
                   de: "Öffentlich",
                 },
                 description: {
-                  en: "The information on the digital signage device (display) is public and is generally made available to everyone (e.g. advertising, daily menu, hygiene instructions, etc.).",
+                  en: "The information on the digital signage device (display) is public and is generally made available to everyone (e.g. advertisements, daily menu, hygiene instructions, etc.).",
                   de: "Die Informationen auf dem Digital Signage-Gerät (Display) sind öffentlich und werden in der Regel allen zur Verfügung gestellt (z. B. Werbung, Tageskarte, Hygieneanweisungen usw.).",
                 },
               },
@@ -213,7 +213,7 @@ export const CreateDisplayTrans = {
                 de: "Standort: Extern / Intern",
               },
               subtitle: {
-                en: "Here you indicate where you want to place your display",
+                en: "Here you Specify where you want to place your display",
                 de: "Hier geben Sie an, wo Sie Ihr Display platzieren möchten",
               },
             },
@@ -224,7 +224,7 @@ export const CreateDisplayTrans = {
                   de: "Extern",
                 },
                 description: {
-                  en: "The display is placed in such a way that the information is also visible outside of your own premises (e.g. visible to passers-by in the shop window).",
+                  en: "The display is positioned so that the information is visible outside your own premises (e.g., visible to passersby in the shop window).",
                   de: "Das Display ist so platziert, dass die Informationen auch außerhalb Ihrer eigenen Räumlichkeiten sichtbar sind (z. B. für Passanten im Schaufenster sichtbar).",
                 },
               },
@@ -241,11 +241,11 @@ export const CreateDisplayTrans = {
             },
             validationMsg: {
               required: {
-                en: "Location Information is required",
+                en: "Location Information required",
                 de: "Standortinformationen erforderlich",
               },
               invalid: {
-                en: "Location Information is invalid",
+                en: "Location Information invalid",
                 de: "Standortinformationen ungültig",
               },
             },
@@ -310,8 +310,8 @@ export const CreateDisplayTrans = {
               de: "Teilen Informationen erforderlich",
             },
             invalid: {
-              en: "Sharing Information is invalid",
-              de: "Teilen Informationen ungültig",
+              en: "The Shared Information is invalid",
+              de: "Die geteilen Informationen sind ungültig",
             },
           },
         },
@@ -448,7 +448,7 @@ export const CreateDisplayTrans = {
               },
               customScreen: {
                 label: {
-                  en: "Special formats on request",
+                  en: "Special formats available on request",
                   de: "Sonderformate auf Anfrage",
                 },
               },
@@ -1459,11 +1459,11 @@ export const CreateDisplayTrans = {
           validationMsg: {
             required: {
               en: "Peak field is required",
-              de: "Hochzeit erforderlich",
+              de: "Hochformat erforderlich",
             },
             invalid: {
               en: "Peak field is invalid",
-              de: "Hochzeit ungültig",
+              de: "Hochformat ungültig",
             },
           },
         },
@@ -1473,7 +1473,7 @@ export const CreateDisplayTrans = {
             de: "Es gab einen Fehler bei der Kontaktaufnahme mit dem Server.",
           },
           serverSuccess: {
-            en: "Valuation Submitted",
+            en: " Rating successfully Submitted",
             de: "Bewertung erfolgreich übermittelt",
           },
           invalid: {
@@ -1574,7 +1574,7 @@ export const CreateDisplayTrans = {
               de: "Hier können Sie den Player (für Windows-Computer) oder den Token (für Tablet / Smartphone) für dieses Display anfordern. Der Player oder Token verbindet sich automatisch über das Internet mit KiData und zeigt dann die Inhalte an",
             },
             hoverMessage: {
-              en: "to get a token you need to activate the display!",
+              en: "To receive a token you must activate the display!",
               de: "Um einen Token zu erhalten, müssen Sie das Display aktivieren!",
             },
           },
@@ -1678,11 +1678,11 @@ export const CreateDisplayTrans = {
         de: "Es gab einen Fehler bei der Kontaktaufnahme mit dem Server.",
       },
       serverSuccess: {
-        en: "Create display successfully",
+        en: "Display successfully create",
         de: "Display erfolgreich erstellt.",
       },
       invalid: {
-        en: "There was an error in Create display ",
+        en: "Error while Creating the display ",
         de: "Fehler beim Erstellen des Displays.",
       },
       unauthorized: {
