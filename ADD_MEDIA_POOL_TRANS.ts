@@ -5,8 +5,8 @@ export const AddMediaPoolTrans = {
       de: "Allgemeine Informationen",
     },
     UploadFile: {
-      en: "Upload files(s)",
-      de: "Datei(en) hochladen",
+      en: "Upload file/s",
+      de: "Datei/en hochladen",
     },
   },
   steps: {
@@ -14,12 +14,12 @@ export const AddMediaPoolTrans = {
       generalInformation: {
         header: {
           title: {
-            en: "Genreal Information",
+            en: "General Information",
             de: "Allgemeine Informationen",
           },
           subtitle: {
-            en: "Here you can give your file (s) a title, description and keywords",
-            de: "Hier können Sie Ihrer Datei(en) einen Titel, eine Beschreibung und Schlüsselwörter geben",
+            en: "Here you can give your file (s) a title, a description and keywords",
+            de: "Hier können Sie Ihren Datei/en einen Titel, eine Beschreibung und Schlüsselwörter geben",
           },
         },
         items: {
@@ -29,17 +29,17 @@ export const AddMediaPoolTrans = {
               de: "Titel",
             },
             placeHolder: {
-              en: "Type a title for your file(s)",
-              de: "Geben Sie einen Titel für Ihre Datei(en) ein",
+              en: "Enter a title for your file(s)",
+              de: "Geben Sie einen Titel für Ihre Datei/en eine",
             },
             validationMsg: {
               required: {
                 en: "Title field is required",
-                de: "Feld Titel ist erforderlich",
+                de: "Das Feld Titel ist erforderlich",
               },
               invalid: {
                 en: "Title field is invalid",
-                de: "Feld Titel ist ungültig",
+                de: "Das Feld Titel ist ungültig",
               },
             },
           },
@@ -49,8 +49,8 @@ export const AddMediaPoolTrans = {
               de: "Beschreibung",
             },
             placeHolder: {
-              en: "Type a description for your file(s)",
-              de: "Geben Sie eine Beschreibung für Ihre Datei(en) ein.",
+              en: "Enter a description for your file(s)",
+              de: "Geben Sie eine Beschreibung für Ihre Datei/en ein.",
             },
             validationMsg: {
               required: {
@@ -75,11 +75,11 @@ export const AddMediaPoolTrans = {
             validationMsg: {
               required: {
                 en: "Keywords field is required",
-                de: "Feld Schlüsselwörter ist erforderlich",
+                de: "Das Feld Schlüsselwörter ist erforderlich",
               },
               invalid: {
                 en: "Keywords field is invalid",
-                de: "Feld Schlüsselwörter ist ungültig",
+                de: "Das Feld Schlüsselwörter ist ungültig",
               },
             },
           },
@@ -92,7 +92,7 @@ export const AddMediaPoolTrans = {
             de: "Datei Zugriffsberechtigungen",
           },
           subtitle: {
-            en: "Set who can view this media. Choose 'Private' to restrict access to authorized users only, or 'Public' for unrestricted access.",
+            en: "Specify who can view this media. Choose 'Private' to restrict access to authorized users only, or 'Public' for unrestricted access.",
             de: "Legen Sie fest, wer diese Medien einsehen kann. Wählen Sie 'Privat', um den Zugriff auf autorisierte Benutzer zu beschränken, oder 'Öffentlich' für uneingeschränkten Zugriff.",
           },
         },
@@ -114,7 +114,7 @@ export const AddMediaPoolTrans = {
             },
             private: {
               label: {
-                en: "Private (Restricted to authorized members only)",
+                en: "Private (Accessible only to authorized members)",
                 de: "Privat (Nur für autorisierte Mitglieder zugänglich)",
               },
             },
@@ -154,11 +154,11 @@ export const AddMediaPoolTrans = {
             },
             validationMsg: {
               required: {
-                en: "category field is required",
+                en: "The category field is required",
                 de: "Das Feld Kategorie ist erforderlich",
               },
               invalid: {
-                en: "category field is invalid",
+                en: "The category field is invalid",
                 de: "Das Feld Kategorie ist ungültig",
               },
             },
@@ -174,19 +174,19 @@ export const AddMediaPoolTrans = {
             de: "Datei(en) hochladen",
           },
           subtitle: {
-            en: "Save all the files you upload here. If you want to save a file as a spot or background, select the respective button beforehand. Files that should be saved as spots are marked green, those that should be saved as backgrounds are marked orange. Uploaded files that should not be saved can be deleted beforehand.",
+            en: "Save here all files you upload. If you want to save a file as a spot or background,first select the corresponding button beforehand. Files that should be saved as spots are marked green, those that should be saved as backgrounds are marked orange. Uploaded files that should not be saved can be deleted beforehand.",
             de: "Speichern Sie hier alle Dateien, die Sie hochladen. Wenn Sie eine Datei als Spot oder Hintergrund speichern möchten, wählen Sie vorher die entsprechende Schaltfläche aus. Dateien, die als Spots gespeichert werden sollen, sind grün markiert, solche, die als Hintergründe gespeichert werden sollen, sind orange markiert. Hochgeladene Dateien, die nicht gespeichert werden sollen, können vorher gelöscht werden.",
           },
         },
         headerActions: {
-          selectAll: { en: "Select all medias", de: "Alle Medien auswählen" },
+          selectAll: { en: "Select all media", de: "Alle Medien auswählen" },
           deleteSelected: {
             label: {
-              en: "Delete Selected Medias",
+              en: "Delete Selected Media",
               de: "Ausgewählte Medien löschen",
             },
             popConfirm: {
-              title: { en: "Delete medias", de: "Medien löschen" },
+              title: { en: "Delete media", de: "Medien löschen" },
               subtitle: {
                 en: "Are you sure you want to delete selected files?",
                 de: "Sind Sie sicher, dass Sie die ausgewählten Dateien löschen möchten?",
@@ -218,14 +218,14 @@ export const AddMediaPoolTrans = {
               commercial: {
                 label: { en: "Commercial", de: "Werbung" },
                 tooltipMessage: {
-                  en: "Only HD, FullHD, 4KUHD, 8KUHD medias can set as commercial!",
+                  en: "Only HD, FullHD, 4KUHD, 8KUHD media can set as commercial!",
                   de: "Nur HD-, FullHD-, 4KUHD-, 8KUHD-Medien können als Werbung festgelegt werden!",
                 },
               },
               background: {
                 label: { en: "Background", de: "Hintergrund" },
                 tooltipResolutionMessage: {
-                  en: "Only HD, FullHD, 4KUHD, 8KUHD medias can set as background!",
+                  en: "Only HD, FullHD, 4KUHD, 8KUHD media can set as background!",
                   de: "Nur HD-, FullHD-, 4KUHD-, 8KUHD-Medien können als Hintergrund festgelegt werden!",
                 },
                 tooltipFileTypeMessage: {
@@ -275,7 +275,7 @@ export const AddMediaPoolTrans = {
                   de: "Titel",
                 },
                 placeHolder: {
-                  en: "Type a title for your file(s)",
+                  en: "Enter a title for your file(s)",
                   de: "Geben Sie einen Titel für Ihre Datei(en) ein",
                 },
                 validationMsg: {
@@ -295,7 +295,7 @@ export const AddMediaPoolTrans = {
                   de: "Beschreibung",
                 },
                 placeHolder: {
-                  en: "Type a description for your file(s)",
+                  en: "Enter a description for your file(s)",
                   de: "Geben Sie eine Beschreibung für Ihre Datei(en) ein.",
                 },
                 validationMsg: {
@@ -391,7 +391,7 @@ export const AddMediaPoolTrans = {
                 items: {
                   on: {
                     en: "on",
-                    de: "ein",
+                    de: "an",
                   },
                   off: {
                     en: "off",
@@ -400,11 +400,11 @@ export const AddMediaPoolTrans = {
                 },
                 validationMsg: {
                   required: {
-                    en: "has Sound field is required",
+                    en: "The Sound field is required",
                     de: "Das Feld 'Ton' ist erforderlich",
                   },
                   invalid: {
-                    en: "has Sound field is invalid",
+                    en: "The Sound field is invalid",
                     de: "Das Feld 'Ton' ist ungültig",
                   },
                 },
@@ -423,17 +423,17 @@ export const AddMediaPoolTrans = {
       },
       actions: {
         saveAndFinish: {
-          en: "Save all and finish",
+          en: "Save and finish",
           de: "Speichern und beenden",
         },
         cancel: {
           label: {
-            en: "Cancel Adding Media",
+            en: "Cancel adding media",
             de: "Hinzufügen von Medien abbrechen",
           },
           popConfirm: {
             title: {
-              en: "Cancel Adding Media",
+              en: "Cancel adding media",
               de: "Hinzufügen von Medien abbrechen",
             },
             subtitle: {
@@ -443,7 +443,7 @@ export const AddMediaPoolTrans = {
             actions: {
               cancelAddMedia: {
                 label: {
-                  en: "Cancel Adding Media",
+                  en: "Cancel adding media",
                   de: "Hinzufügen von Medien abbrechen",
                 },
               },
@@ -474,7 +474,7 @@ export const AddMediaPoolTrans = {
             de: "Upload vom Benutzer abgebrochen",
           },
           errorFailedUpload: {
-            en: "Failed to upload file. Please try again.",
+            en: "File upload failed. Please try again.",
             de: "Datei-Upload fehlgeschlagen. Bitte versuchen Sie es erneut.",
           },
           errorType: {
@@ -491,7 +491,7 @@ export const AddMediaPoolTrans = {
 
         editMetadataMedia: {
           success: {
-            en: "File Metadata Edited successfully",
+            en: "File metadata edited successfully",
             de: "Datei-Metadaten erfolgreich bearbeitet",
           },
         },
@@ -499,3 +499,4 @@ export const AddMediaPoolTrans = {
     },
   },
 };
+
