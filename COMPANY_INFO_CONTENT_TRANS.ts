@@ -13,7 +13,7 @@ export const CompanyInfoContentTrans = {
       title: { en: "Address details", de: "Adressdetails" },
       items: {
         street: {
-          label: { en: "Street controll ", de: "Straße" },
+          label: { en: "Street ", de: "Straße" },
         },
         number: {
           label: { en: "No.", de: "Nr." },
