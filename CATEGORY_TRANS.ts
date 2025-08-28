@@ -11,7 +11,7 @@ export const CategoryTrans = {
           de: "Neue Kategorie erstellen",
         },
         subTitle: {
-          en: "Create a category for your digital signage device here",
+          en: "Create a category here for your digital signage device",
           de: "Erstellen Sie hier eine Kategorie für Ihr Digital Signage Gerät",
         },
       },
@@ -153,31 +153,31 @@ export const CategoryTrans = {
     services: {
       create: {
         success: {
-          en: "Category Created successfully",
+          en: "Category successfully Created",
           de: "Kategorie erfolgreich erstellt",
         },
         error: {
-          en: "Category Create Failed",
+          en: "Failed to create category",
           de: "Fehler beim Erstellen der Kategorie",
         },
       },
       edit: {
         success: {
-          en: "Category Edited successfully",
+          en: "Category successfully edited",
           de: "Kategorie erfolgreich bearbeitet",
         },
         error: {
-          en: "Category Edit Failed",
+          en: "Failed to edit the category",
           de: "Fehler beim Bearbeiten der Kategorie",
         },
       },
       delete: {
         success: {
-          en: "Category Deleted successfully",
+          en: "Category successfully deleted",
           de: "Kategorie erfolgreich gelöscht",
         },
         error: {
-          en: "Category Delete Failed",
+          en: "Failed to delete the category",
           de: "Fehler beim Löschen der Kategorie",
         },
       },
