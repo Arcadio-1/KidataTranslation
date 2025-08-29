@@ -92,16 +92,16 @@ export const ChangePasswordModalTrans = {
     },
     description: {
       en: "We’ve sent a reset code to your email. Please check your inbox and enter the code below.",
-      de: "Wir haben einen Zurücksetz-Code an Ihre E-Mail-Adresse gesendet. Bitte überprüfen Sie Ihren Posteingang und geben Sie den Code unten ein.",
+      de: "Wir haben einen Zurücksetzungscode  an Ihre E-Mail-Adresse gesendet. Bitte überprüfen Sie Ihren Posteingang und geben Sie den Code unten ein.",
     },
     placeholder: {
       en: "Enter your reset code",
-      de: "Geben Sie Ihren Zurücksetz-Code ein",
+      de: "Geben Sie Ihren Zurücksetzungscode  ein",
     },
     validation: {
       codeRequired: {
         en: "Please enter your reset code",
-        de: "Bitte geben Sie Ihren Zurücksetz-Code ein",
+        de: "Bitte geben Sie Ihren Zurücksetzungscode  ein",
       },
     },
     actions: {
