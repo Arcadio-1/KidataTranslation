@@ -2,7 +2,7 @@ export const ChangePasswordModalTrans = {
   changePasswordForm: {
     labels: {
       currentPassword: {
-        en: "Current password",
+        en: "Current Password",
         de: "Aktuelles Passwort",
       },
       newPassword: {
@@ -10,48 +10,48 @@ export const ChangePasswordModalTrans = {
         de: "Neues Passwort",
       },
       confirmPassword: {
-        en: "Confirm password",
+        en: "Confirm Password",
         de: "Passwort bestätigen",
       },
     },
     placeholders: {
       currentPassword: {
-        en: "Enter your current password here",
+        en: "Enter your current password",
         de: "Geben Sie Ihr aktuelles Passwort ein",
       },
       newPassword: {
-        en: "Enter your new password here",
+        en: "Enter your new password",
         de: "Geben Sie Ihr neues Passwort ein",
       },
       confirmPassword: {
-        en: "Confirm your password here",
-        de: "Bestätigen Sie Ihr Passwort",
+        en: "Confirm your new password",
+        de: "Bestätigen Sie Ihr neues Passwort",
       },
     },
     validation: {
       currentPasswordRequired: {
-        en: "Please Enter your current password",
+        en: "Please enter your current password",
         de: "Bitte geben Sie Ihr aktuelles Passwort ein",
       },
       newPasswordRequired: {
-        en: "Password Field Is Required",
-        de: "Passwortfeld ist erforderlich",
+        en: "New password is required",
+        de: "Neues Passwort ist erforderlich",
       },
       newPasswordWeak: {
         en: "Password is not strong enough",
-        de: "Das Passwort ist nicht stark genug",
+        de: "Das Passwort ist nicht sicher genug",
       },
       confirmPasswordRequired: {
-        en: "Please confirm your password",
-        de: "Bitte bestätigen Sie Ihr Passwort",
+        en: "Please confirm your new password",
+        de: "Bitte bestätigen Sie Ihr neues Passwort",
       },
       passwordsNotMatch: {
         en: "Passwords do not match",
-        de: "Passwörter stimmen nicht überein",
+        de: "Die Passwörter stimmen nicht überein",
       },
     },
     forgotPassword: {
-      en: "Forgot password?",
+      en: "Forgot Password?",
       de: "Passwort vergessen?",
     },
     actions: {
@@ -60,19 +60,19 @@ export const ChangePasswordModalTrans = {
         de: "Abbrechen",
       },
       submit: {
-        en: "Change password",
+        en: "Change Password",
         de: "Passwort ändern",
       },
     },
   },
   resetPasswordInitial: {
     title: {
-      en: "Forgot Your Password ?",
+      en: "Forgot Your Password?",
       de: "Passwort vergessen?",
     },
     description: {
-      en: "No worries! Click the button below, and we’ll send a reset code to your email.",
-      de: "Kein Problem! Klicken Sie auf den Button unten, und wir senden Ihnen einen Reset-Code an Ihre E-Mail.",
+      en: "No worries! Click the button below and we’ll send a reset code to your Email.",
+      de: "Kein Problem! Klicken Sie auf den Button unten, und wir senden Ihnen einen Zurücksetz-Code an Ihre E-Mail-Adresse.",
     },
     actions: {
       cancel: {
@@ -88,20 +88,20 @@ export const ChangePasswordModalTrans = {
   verifyResetCodeForm: {
     title: {
       en: "Reset Code Sent!",
-      de: "Reset-Code gesendet!",
+      de: "Zurücksetzungscode gesendet!",
     },
     description: {
       en: "We’ve sent a reset code to your email. Please check your inbox and enter the code below.",
-      de: "Wir haben einen Reset-Code an Ihre E-Mail gesendet. Bitte überprüfen Sie Ihren Posteingang und geben Sie den Code unten ein.",
+      de: "Wir haben einen Zurücksetz-Code an Ihre E-Mail-Adresse gesendet. Bitte überprüfen Sie Ihren Posteingang und geben Sie den Code unten ein.",
     },
     placeholder: {
       en: "Enter your reset code",
-      de: "Geben Sie Ihren Reset-Code ein",
+      de: "Geben Sie Ihren Zurücksetz-Code ein",
     },
     validation: {
       codeRequired: {
-        en: "Please Enter your reset code",
-        de: "Bitte geben Sie Ihren Reset-Code ein",
+        en: "Please enter your reset code",
+        de: "Bitte geben Sie Ihren Zurücksetz-Code ein",
       },
     },
     actions: {
@@ -111,7 +111,7 @@ export const ChangePasswordModalTrans = {
       },
       verify: {
         en: "Verify Code",
-        de: "Code verifizieren",
+        de: "Code überprüfen",
       },
     },
   },
@@ -122,36 +122,36 @@ export const ChangePasswordModalTrans = {
         de: "Neues Passwort",
       },
       confirmPassword: {
-        en: "Confirm password",
+        en: "Confirm Password",
         de: "Passwort bestätigen",
       },
     },
     placeholders: {
       newPassword: {
-        en: "Enter your new password here",
+        en: "Enter your new password",
         de: "Geben Sie Ihr neues Passwort ein",
       },
       confirmPassword: {
-        en: "Confirm your password here",
-        de: "Bestätigen Sie Ihr Passwort",
+        en: "Confirm your new password",
+        de: "Bestätigen Sie Ihr neues Passwort",
       },
     },
     validation: {
       newPasswordRequired: {
-        en: "Password Field Is Required",
-        de: "Passwortfeld ist erforderlich",
+        en: "New password is required",
+        de: "Neues Passwort ist erforderlich",
       },
       newPasswordWeak: {
         en: "Password is not strong enough",
-        de: "Das Passwort ist nicht stark genug",
+        de: "Das Passwort ist nicht sicher genug",
       },
       confirmPasswordRequired: {
-        en: "Please confirm your password",
-        de: "Bitte bestätigen Sie Ihr Passwort",
+        en: "Please confirm your new password",
+        de: "Bitte bestätigen Sie Ihr neues Passwort",
       },
       passwordsNotMatch: {
         en: "Passwords do not match",
-        de: "Passwörter stimmen nicht überein",
+        de: "Die Passwörter stimmen nicht überein",
       },
     },
     actions: {
@@ -160,24 +160,24 @@ export const ChangePasswordModalTrans = {
         de: "Abbrechen",
       },
       submit: {
-        en: "Change password",
+        en: "Change Password",
         de: "Passwort ändern",
       },
     },
   },
   successMessage: {
     title: {
-      en: "Password changed successfully",
+      en: "Password Changed Successfully",
       de: "Passwort erfolgreich geändert",
     },
     description: {
-      en: "now you can Login with your new password",
-      de: "jetzt können Sie sich mit Ihrem neuen Passwort anmelden",
+      en: "You can now log in with your new password.",
+      de: "Sie können sich jetzt mit Ihrem neuen Passwort anmelden.",
     },
     action: {
       ok: {
-        en: "Ok",
-        de: "Ok",
+        en: "OK",
+        de: "OK",
       },
     },
   },
