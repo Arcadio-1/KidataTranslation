@@ -4,28 +4,28 @@ export const AdminInfoContentTrans = {
   },
   item: {
     username: {
-      label: { en: "username", de: "Benutzername" },
+      label: { en: "Username", de: "Benutzername" },
     },
     firstName: {
-      label: { en: "First name", de: "Vorname" },
+      label: { en: "First Name", de: "Vorname" },
     },
     lastName: {
-      label: { en: "Last name", de: "Nachname" },
+      label: { en: "Last Name", de: "Nachname" },
     },
     phone: {
-      label: { en: "phone", de: "Telefonnummer" },
+      label: { en: "Phone Number", de: "Telefonnummer" },
     },
     email: {
-      label: { en: "Email address", de: "E-Mail-Adresse" },
+      label: { en: "Email Address", de: "E-Mail-Adresse" },
     },
     companyName: {
-      label: { en: "Company name", de: "Firmenname" },
+      label: { en: "Company Name", de: "Firmenname" },
     },
   },
   action: {
     sendMessage: {
       label: {
-        en: "Send message",
+        en: "Send Message",
         de: "Nachricht senden",
       },
     },
