@@ -6,19 +6,19 @@ export const CompanyRegistrationTrans = {
     },
     administrator: {
       en: "Administrator",
-      de: "Verwalter",
+      de: "Administrator",
     },
     businessModel: {
-      en: "Business model",
+      en: "Business Model",
       de: "Geschäftsmodell",
     },
     paymentInformation: {
-      en: "Payment information",
+      en: "Payment Information",
       de: "Zahlungsinformationen",
     },
     confirmation: {
-      en: "Company confirmation",
-      de: "Firmenbestätigung",
+      en: "Company Confirmation",
+      de: "Unternehmensbestätigung",
     },
   },
   forms: {
@@ -27,12 +27,12 @@ export const CompanyRegistrationTrans = {
         addressData: {
           header: {
             title: {
-              en: "Address data",
+              en: "Address Data",
               de: "Adressdaten",
             },
             subtitle: {
-              en: "Please enter the address data of your company (registered office)",
-              de: "Bitte geben Sie die Adressdaten Ihres Unternehmens (Hauptsitz) ein",
+              en: "Please enter the address details of your company (registered office).",
+              de: "Bitte geben Sie die Adressdaten Ihres Unternehmens (Hauptsitz) ein.",
             },
           },
           items: {
@@ -47,22 +47,22 @@ export const CompanyRegistrationTrans = {
               },
               validationMsg: {
                 required: {
-                  en: "Company name field is required",
-                  de: "Das Feld Firmenname ist erforderlich",
+                  en: "Company name is required",
+                  de: "Das Feld „Firmenname“ ist erforderlich.",
                 },
                 invalid: {
-                  en: "Company name field is invalid",
-                  de: "Das Feld Firmenname ist ungültig",
+                  en: "Invalid company name",
+                  de: "Ungültiger Firmenname.",
                 },
               },
             },
             companyForm: {
               label: {
-                en: "Company form",
+                en: "Legal Form",
                 de: "Rechtsform",
               },
               placeHolder: {
-                en: "Select your company form",
+                en: "Select your legal form",
                 de: "Wählen Sie Ihre Rechtsform",
               },
             },
@@ -77,32 +77,32 @@ export const CompanyRegistrationTrans = {
               },
               validationMsg: {
                 required: {
-                  en: "Street name field is required",
-                  de: "Das Feld Straßenname ist erforderlich",
+                  en: "Street name is required",
+                  de: "Das Feld „Straßenname“ ist erforderlich.",
                 },
                 invalid: {
-                  en: "Street field is invalid",
-                  de: "Das Feld Straße ist ungültig",
+                  en: "Invalid street name",
+                  de: "Ungültiger Straßenname.",
                 },
               },
             },
             number: {
               label: {
-                en: "Number",
+                en: "House Number",
                 de: "Hausnummer",
               },
               placeHolder: {
-                en: "Enter street number",
+                en: "Enter house number",
                 de: "Geben Sie die Hausnummer ein",
               },
               validationMsg: {
                 required: {
-                  en: "Street number field is required",
-                  de: "Das Feld Hausnummer ist erforderlich",
+                  en: "House number is required",
+                  de: "Das Feld „Hausnummer“ ist erforderlich.",
                 },
                 invalid: {
-                  en: "Street number field is invalid",
-                  de: "Das Feld Hausnummer ist ungültig",
+                  en: "Invalid house number",
+                  de: "Ungültige Hausnummer.",
                 },
               },
             },
@@ -113,36 +113,36 @@ export const CompanyRegistrationTrans = {
               },
               placeHolder: {
                 en: "Address supplement of the company headquarters (if available)",
-                de: "Adresszusatz der Firmenzentrale (falls vorhanden)",
+                de: "Adresszusatz des Unternehmenssitzes (falls vorhanden)",
               },
               validationMsg: {
                 required: {
-                  en: "Address Supplement field is required",
-                  de: "Das Feld Adresszusatz ist erforderlich",
+                  en: "Address supplement is required",
+                  de: "Das Feld „Adresszusatz“ ist erforderlich.",
                 },
                 invalid: {
-                  en: "Address Supplement field is invalid",
-                  de: "Das Feld Adresszusatz ist ungültig",
+                  en: "Invalid address supplement",
+                  de: "Ungültiger Adresszusatz.",
                 },
               },
             },
             zip: {
               label: {
-                en: "Zip",
-                de: "PLZ (Postleitzahl)",
+                en: "Postal Code",
+                de: "PLZ",
               },
               placeHolder: {
-                en: "Enter zip code",
-                de: "Geben Sie die PLZ ein",
+                en: "Enter postal code",
+                de: "Geben Sie die Postleitzahl ein",
               },
               validationMsg: {
                 required: {
-                  en: "Zip code field is required",
-                  de: "Das Feld PLZ ist erforderlich",
+                  en: "Postal code is required",
+                  de: "Das Feld „PLZ“ ist erforderlich.",
                 },
                 invalid: {
-                  en: "Zip code field is invalid",
-                  de: "Das Feld PLZ ist ungültig",
+                  en: "Invalid postal code",
+                  de: "Ungültige Postleitzahl.",
                 },
               },
             },
@@ -152,17 +152,17 @@ export const CompanyRegistrationTrans = {
                 de: "Stadt / Hauptsitz",
               },
               placeHolder: {
-                en: "Enter the location",
-                de: "Geben Sie den Ort ein",
+                en: "Enter city",
+                de: "Geben Sie die Stadt ein",
               },
               validationMsg: {
                 required: {
-                  en: "City field is required",
-                  de: "Das Feld Stadt ist erforderlich",
+                  en: "City is required",
+                  de: "Das Feld „Stadt“ ist erforderlich.",
                 },
                 invalid: {
-                  en: "City field is invalid",
-                  de: "Das Feld Stadt ist ungültig",
+                  en: "Invalid city",
+                  de: "Ungültige Stadt.",
                 },
               },
             },
@@ -172,13 +172,13 @@ export const CompanyRegistrationTrans = {
                 de: "Bundesland",
               },
               placeHolder: {
-                en: "Choose a state",
+                en: "Select a state",
                 de: "Wählen Sie ein Bundesland",
               },
               validationMsg: {
                 required: {
-                  en: "State field is required",
-                  de: "Das Feld Bundesland ist erforderlich",
+                  en: "Federal state is required",
+                  de: "Das Feld „Bundesland“ ist erforderlich.",
                 },
               },
             },
@@ -188,13 +188,13 @@ export const CompanyRegistrationTrans = {
                 de: "Land",
               },
               placeHolder: {
-                en: "Choose a country",
+                en: "Select a country",
                 de: "Wählen Sie ein Land",
               },
               validationMsg: {
                 required: {
-                  en: "Country field is required",
-                  de: "Das Feld Land ist erforderlich",
+                  en: "Country is required",
+                  de: "Das Feld „Land“ ist erforderlich.",
                 },
               },
             },
@@ -204,17 +204,17 @@ export const CompanyRegistrationTrans = {
                 de: "Telefon",
               },
               placeHolder: {
-                en: "Phone number",
-                de: "Telefonnummer",
+                en: "Enter phone number",
+                de: "Geben Sie die Telefonnummer ein",
               },
               validationMsg: {
                 required: {
-                  en: "Phone field is required",
-                  de: "Das Feld Telefonnummer ist erforderlich",
+                  en: "Phone number is required",
+                  de: "Das Feld „Telefonnummer“ ist erforderlich.",
                 },
                 invalid: {
-                  en: "Phone number field is invalid",
-                  de: "Das Feld Telefonnummer ist ungültig",
+                  en: "Invalid phone number",
+                  de: "Ungültige Telefonnummer.",
                 },
               },
             },
@@ -224,17 +224,17 @@ export const CompanyRegistrationTrans = {
                 de: "Mobiltelefon",
               },
               placeHolder: {
-                en: "Mobile number",
-                de: "Mobiltelefonnummer",
+                en: "Enter mobile number",
+                de: "Geben Sie die Mobiltelefonnummer ein",
               },
               validationMsg: {
                 required: {
-                  en: "Mobile field is required",
-                  de: "Das Feld Mobiltelefonnummer ist erforderlich",
+                  en: "Mobile number is required",
+                  de: "Das Feld „Mobiltelefonnummer“ ist erforderlich.",
                 },
                 invalid: {
-                  en: "Mobile number field is invalid",
-                  de: "Das Feld Mobiltelefonnummer ist ungültig",
+                  en: "Invalid mobile number",
+                  de: "Ungültige Mobiltelefonnummer.",
                 },
               },
             },
@@ -244,17 +244,17 @@ export const CompanyRegistrationTrans = {
                 de: "Fax",
               },
               placeHolder: {
-                en: "Fax number",
-                de: "Faxnummer",
+                en: "Enter fax number",
+                de: "Geben Sie die Faxnummer ein",
               },
               validationMsg: {
                 required: {
-                  en: "Fax field is required",
-                  de: "Das Feld Faxnummer ist erforderlich",
+                  en: "Fax number is required",
+                  de: "Das Feld „Faxnummer“ ist erforderlich.",
                 },
                 invalid: {
-                  en: "Fax number field is invalid",
-                  de: "Das Feld Faxnummer ist ungültig",
+                  en: "Invalid fax number",
+                  de: "Ungültige Faxnummer.",
                 },
               },
             },
@@ -269,12 +269,12 @@ export const CompanyRegistrationTrans = {
               },
               validationMsg: {
                 required: {
-                  en: "Website URL field is required",
-                  de: "Das Feld Website-URL ist erforderlich",
+                  en: "Website URL is required",
+                  de: "Das Feld „Website-URL“ ist erforderlich.",
                 },
                 invalid: {
-                  en: "Website URL field is invalid",
-                  de: "Das Feld Website-URL ist ungültig",
+                  en: "Invalid website URL",
+                  de: "Ungültige Website-URL.",
                 },
               },
             },
@@ -289,12 +289,12 @@ export const CompanyRegistrationTrans = {
               },
               validationMsg: {
                 required: {
-                  en: "Email field is required",
-                  de: "Das Feld E-Mail-Adresse ist erforderlich",
+                  en: "Email address is required",
+                  de: "Das Feld „E-Mail-Adresse“ ist erforderlich.",
                 },
                 invalid: {
-                  en: "Email field is invalid",
-                  de: "Das Feld E-Mail-Adresse ist ungültig",
+                  en: "Invalid email address",
+                  de: "Ungültige E-Mail-Adresse.",
                 },
               },
             },
@@ -307,8 +307,8 @@ export const CompanyRegistrationTrans = {
               de: "Impressum / Rechtlich und inhaltlich Verantwortliche Person",
             },
             subtitle: {
-              en: "Please enter the name of the manager, board member or owner",
-              de: "Bitte geben Sie den Namen des Geschäftsführers, Vorstandsmitglieds oder Eigentümers ein",
+              en: "Please enter the Name of the manager, Board member or Owner",
+              de: "Bitte geben Sie den Namen des Geschäftsführers, Vorstandsmitglieds oder Inhabers ein",
             },
           },
           items: {
@@ -324,7 +324,7 @@ export const CompanyRegistrationTrans = {
               validationMsg: {
                 required: {
                   en: "Salutation field is required",
-                  de: "Das Anrede-Feld ist erforderlich",
+                  de: "Das Feld Anrede ist erforderlich",
                 },
                 invalid: {
                   en: "Salutation field is invalid",
@@ -338,7 +338,7 @@ export const CompanyRegistrationTrans = {
                 de: "Titel",
               },
               placeHolder: {
-                en: "Your title",
+                en: "Your Title",
                 de: "Ihr Titel",
               },
               validationMsg: {
@@ -367,7 +367,7 @@ export const CompanyRegistrationTrans = {
                   de: "Das Feld Vorname ist erforderlich",
                 },
                 invalid: {
-                  en: "First name field is invalid",
+                  en: "First name Field is invalid",
                   de: "Das Feld Vorname ist ungültig",
                 },
               },
@@ -378,27 +378,27 @@ export const CompanyRegistrationTrans = {
                 de: "Nachname",
               },
               placeHolder: {
-                en: "Last name of the responsible person in the company",
+                en: "Last name of the responsible person in the Company",
                 de: "Nachname der verantwortlichen Person im Unternehmen",
               },
               validationMsg: {
                 required: {
-                  en: "Last name field is required",
+                  en: "Last Name field is required",
                   de: "Das Feld Nachname ist erforderlich",
                 },
                 invalid: {
-                  en: "Last name field is invalid",
+                  en: "Last Name field is invalid",
                   de: "Das Feld Nachname ist ungültig",
                 },
               },
             },
             position: {
               label: {
-                en: "Position / Function in the company",
+                en: "Position / Function in the Company",
                 de: "Position / Funktion im Unternehmen",
               },
               placeHolder: {
-                en: "Position of the responsible person in the company",
+                en: "Position of the responsible Person in the Company",
                 de: "Position der verantwortlichen Person im Unternehmen",
               },
               validationMsg: {
@@ -438,11 +438,11 @@ export const CompanyRegistrationTrans = {
               validationMsg: {
                 required: {
                   en: "Logo field is required",
-                  de: "Das Feld für das Logo ist erforderlich",
+                  de: "Das Feld Logo ist erforderlich",
                 },
                 invalid: {
                   en: "Logo field is invalid",
-                  de: "Das Feld für das Logo ist ungültig",
+                  de: "Das Feld Logo ist ungültig",
                 },
               },
             },
@@ -467,11 +467,11 @@ export const CompanyRegistrationTrans = {
       administrator: {
         header: {
           title: {
-            en: "Administrator and contact person for KiData",
+            en: "Administrator and Contact Person for KiData",
             de: "Administrator und Ansprechpartner für KiData",
           },
           subtitle: {
-            en: "Contact person for this KiData account",
+            en: "Contact Person for this KiData account",
             de: "Ansprechpartner für dieses KiData-Konto",
           },
           takeOver: {
@@ -522,40 +522,40 @@ export const CompanyRegistrationTrans = {
           },
           firstName: {
             label: {
-              en: "First name",
+              en: "First Name",
               de: "Vorname",
             },
             placeHolder: {
-              en: "First name of the responsible person in the company",
+              en: "First Name of the responsible person in the company",
               de: "Vorname der verantwortlichen Person im Unternehmen",
             },
             validationMsg: {
               required: {
-                en: "First name field is required",
+                en: "First Name field is required",
                 de: "Das Feld Vorname ist erforderlich",
               },
               invalid: {
-                en: "First name field is invalid",
+                en: "First Name field is invalid",
                 de: "Das Feld Vorname ist ungültig",
               },
             },
           },
           lastName: {
             label: {
-              en: "Last name",
+              en: "Last Name",
               de: "Nachname",
             },
             placeHolder: {
-              en: "Last name of the responsible person in the company",
+              en: "Last Name of the responsible person in the company",
               de: "Nachname der verantwortlichen Person im Unternehmen",
             },
             validationMsg: {
               required: {
-                en: "Last name field is required",
+                en: "Last Name field is required",
                 de: "Das Feld Nachname ist erforderlich",
               },
               invalid: {
-                en: "Last name field is invalid",
+                en: "Last Name field is invalid",
                 de: "Das Feld Nachname ist ungültig",
               },
             },
@@ -571,7 +571,7 @@ export const CompanyRegistrationTrans = {
             },
             validationMsg: {
               required: {
-                en: "Position field is required",
+                en: "Position Field is required",
                 de: "Das Feld Position ist erforderlich",
               },
               invalid: {
@@ -582,7 +582,7 @@ export const CompanyRegistrationTrans = {
           },
           mobile: {
             label: {
-              en: "Mobile (How can we reach you?)",
+              en: "Mobile number (How can we reach you?)",
               de: "Mobilnummer (Wie können wir Sie erreichen?)",
             },
             placeHolder: {
@@ -591,18 +591,18 @@ export const CompanyRegistrationTrans = {
             },
             validationMsg: {
               required: {
-                en: "Mobile field is required",
+                en: "Mobile Field is required",
                 de: "Das Feld Mobilnummer ist erforderlich",
               },
               invalid: {
-                en: "Mobile field is invalid",
+                en: "Mobile Field is invalid",
                 de: "Das Feld Mobilnummer ist ungültig",
               },
             },
           },
           phone: {
             label: {
-              en: "Phone",
+              en: "Phone number",
               de: "Telefonnummer",
             },
             placeHolder: {
@@ -622,7 +622,7 @@ export const CompanyRegistrationTrans = {
           },
           email: {
             label: {
-              en: "Your e-mail address for contacting us",
+              en: "Your E-mail address for contacting us",
               de: "Ihre E-Mail-Adresse für Anfragen",
             },
             placeHolder: {
@@ -660,7 +660,7 @@ export const CompanyRegistrationTrans = {
               },
             },
           },
-        },
+          },
         service: {
           serverError: {
             en: "There was an error contacting the server.",
@@ -1149,7 +1149,7 @@ export const CompanyRegistrationTrans = {
           items: {
             name: {
               label: {
-                en: "Your industry name",
+                en: "Your industry Name",
                 de: "Branchenname",
               },
               placeHolder: {
@@ -1297,7 +1297,7 @@ export const CompanyRegistrationTrans = {
             },
             salesTaxIdentificationNumber: {
               label: {
-                en: "A sales tax identification number (DE no.)",
+                en: "The sales tax identification number (DE no.)",
                 de: "Umsatzsteuer-Identifikationsnummer (USt-IdNr.)",
               },
               placeHolder: {
@@ -1339,7 +1339,7 @@ export const CompanyRegistrationTrans = {
             de: "Ihr Profil wurde erfolgreich erstellt",
           },
           subtitle: {
-            en: "As soon as we have checked your login details, you will receive a message to the e-mail address you provided...",
+            en: "As soon as we have checked your login details, you will receive a message to the E-mail address you provided...",
             de: "Sobald wir Ihre Anmeldedaten überprüft haben, erhalten Sie eine Nachricht an die von Ihnen angegebene E-Mail-Adresse...",
           },
           description: {
