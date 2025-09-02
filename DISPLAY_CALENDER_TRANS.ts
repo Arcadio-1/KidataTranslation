@@ -38,7 +38,7 @@ export const DisplayCalenderTrans = {
     },
     footer: {
       description: {
-        en: "The availability of the display is shown as a blue background color. You can change availability under Specifications",
+        en: "The Availability of the display is shown as a blue background color. You can change availability under Specifications",
         de: "Die Verfügbarkeit des Displays wird durch eine blaue Hintergrundfarbe angezeigt. Sie können die Verfügbarkeit unter Spezifikationen ändern",
       },
     },
@@ -50,8 +50,8 @@ export const DisplayCalenderTrans = {
         de: "Stoßzeiten",
       },
       subTitle: {
-        en: "Spacefy view count for your selected hours by provided rates",
-        de: "Belegungsansicht für Ihre ausgewählten Stunden zu den angegebenen Preisen",
+        en: "spicefy view count for your selected hours by provided rates",
+        de: "Geben Sie die Anzeigenanzahl für Ihre ausgewählten Stunden gemäß den angegebenen Preisen an",
       },
     },
   },
