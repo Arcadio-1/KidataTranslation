@@ -8,7 +8,7 @@ export const DisplayOverviewConstantsTrans = {
     },
     floorStandScreen: {
       label: {
-        en: "Floor Stand Screen",
+        en: "Floor Standing Screen",
         de: "Bodenständer Bildschirm",
       },
     },
@@ -20,13 +20,13 @@ export const DisplayOverviewConstantsTrans = {
     },
     LEDVideoWall: {
       label: {
-        en: "LED Video Wall",
+        en: "LED Videowall",
         de: "LED Videowand",
       },
     },
     LCDVideoWall: {
       label: {
-        en: "LCD Video Wall",
+        en: "LCD Videowall",
         de: "LCD Videowand",
       },
     },
@@ -100,16 +100,16 @@ export const DisplayOverviewConstantsTrans = {
   },
   displayAccessibilityOptions: {
     public: {
-      title: { en: "Public display(s)", de: "Öffentliche Anzeige(n)" },
+      title: { en: "Public Display(s)", de: "Öffentliche Display(s)" },
       description: {
-        en: "Information is public and visible to everyone",
+        en: "Informations are public and visible to everyone",
         de: "Informationen sind öffentlich und für jeden sichtbar",
       },
     },
     private: {
-      title: { en: "Private display(s)", de: "Private Anzeige(n)" },
+      title: { en: "Private display(s)", de: "Private Display(s)" },
       description: {
-        en: "Information is confidential and only visible to certain people",
+        en: "Informations are confidential and only visible to certain people",
         de: "Informationen sind vertraulich und nur für bestimmte Personen sichtbar",
       },
     },
@@ -132,10 +132,10 @@ export const DisplayOverviewConstantsTrans = {
   },
   displaySearchShareOptions: {
     shared: {
-      label: { en: "Shared displays", de: "Geteilte Anzeigen" },
+      label: { en: "Shared Displays", de: "Geteilte Displays" },
     },
     notShare: {
-      label: { en: "Unshared displays", de: "Nicht geteilte Anzeigen" },
+      label: { en: "Unshared Displays", de: "Nicht geteilte Displays" },
     },
   },
   displayActivityStatusOptions: {
@@ -161,7 +161,7 @@ export const DisplayOverviewConstantsTrans = {
     duplicate: {
       label: {
         en: "Duplicated Display(s)",
-        de: "Duplizierte Anzeige(n)",
+        de: "Duplizierte Display(ns)",
       },
     },
   },
@@ -234,7 +234,7 @@ export const DisplayOverviewConstantsTrans = {
           de: "Öffentlich",
         },
         description: {
-          en: "The information on the digital signage device (display) is public and is generally made available to everyone (e.g. advertising, daily menu, hygiene instructions, etc.).",
+          en: "The informations on the digital signage device (display) are public and is generally made available to everyone (e.g. advertising, daily menu, hygiene instructions, etc.).",
           de: "Die Informationen auf dem Digital Signage-Gerät (Display) sind öffentlich und werden in der Regel allen zur Verfügung gestellt (z. B. Werbung, Tageskarte, Hygieneanweisungen usw.).",
         },
       },
