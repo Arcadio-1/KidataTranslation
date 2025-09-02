@@ -2,7 +2,7 @@ export const ForgotPasswordTrans = {
   header: {
     title: { en: "Forgot Password", de: "Passwort vergessen" },
     subtitle: {
-      en: "Enter the email address associated with your KiData account",
+      en: "Enter the E-mail Address associated with your KiData account",
       de: "Geben Sie die mit Ihrem KiData-Konto verknüpfte E-Mail-Adresse ein",
     },
   },
@@ -14,7 +14,7 @@ export const ForgotPasswordTrans = {
           de: "E-Mail-Adresse (ist auch Ihr Benutzername)",
         },
         placeHolder: {
-          en: "Enter your email address here",
+          en: "Enter your E_mail Address here",
           de: "Geben Sie hier Ihre E-Mail-Adresse ein",
         },
         validationMsg: {
@@ -65,7 +65,7 @@ export const ForgotPasswordTrans = {
         de: "Keine E-Mail erhalten?",
       },
       text1: {
-        en: 'Double-check your email address for typos. If you still can\'t find the email from "noreply@kidata.de," check your spam folder.',
+        en: 'Double-check your E-mail Address for typos. If you still can\'t find the email from "noreply@kidata.de," check your spam folder.',
         de: 'Überprüfen Sie Ihre E-Mail-Adresse auf Tippfehler. Wenn Sie die E-Mail von "noreply@kidata.de" immer noch nicht finden können, überprüfen Sie Ihren Spam-Ordner.',
       },
     },
