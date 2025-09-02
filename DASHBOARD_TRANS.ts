@@ -9,58 +9,45 @@ export const dashboardMainItemsTrans = {
   },
   group: {
     userProfile: {
-      label: { en: "User profile", de: "Benutzerprofil" },
-      description: { en: "User profile", de: "Benutzerprofil" },
+      label: { en: "User Profile", de: "Benutzerprofil" },
+      description: { en: "User Profile", de: "Benutzerprofil" },
     },
     notificationCenter: {
-      label: {
-        en: "Notification Center",
-        de: "Benachrichtigungszentrum",
-      },
-      description: {
-        en: "Notification Center",
-        de: "Benachrichtigungszentrum",
-      },
+      label: { en: "Notification Center", de: "Benachrichtigungszentrum" },
+      description: { en: "Notification Center", de: "Benachrichtigungszentrum" },
     },
     userManagement: {
-      label: { en: "User management", de: "Benutzerverwaltung" },
-      description: { en: "User management", de: "Benutzerverwaltung" },
+      label: { en: "User Management", de: "Benutzerverwaltung" },
+      description: { en: "User Management", de: "Benutzerverwaltung" },
     },
     partnerManagement: {
-      label: { en: "Partner management", de: "Partnerverwaltung" },
-      description: { en: "Partner management", de: "Partnerverwaltung" },
+      label: { en: "Partner Management", de: "Partnerverwaltung" },
+      description: { en: "Partner Management", de: "Partnerverwaltung" },
     },
     displayManagement: {
-      label: { en: "Display management", de: "Anzeigenverwaltung" },
-      description: { en: "Display management", de: "Anzeigenverwaltung" },
+      label: { en: "Display Management", de: "Anzeigenverwaltung" },
+      description: { en: "Display Management", de: "Anzeigenverwaltung" },
     },
     broadcastManagement: {
-      label: { en: "Broadcast management", de: "Sendeverwaltung" },
-      description: { en: "Broadcast management", de: "Sendeverwaltung" },
+      label: { en: "Broadcast Management", de: "Sendungsverwaltung" },
+      description: { en: "Broadcast Management", de: "Sendungsverwaltung" },
     },
     mediaPool: {
-      label: { en: "Media pool", de: "Medienpool" },
-      description: { en: "Media pool", de: "Medienpool" },
+      label: { en: "Media Pool", de: "Medienpool" },
+      description: { en: "Media Pool", de: "Medienpool" },
     },
     commercial: {
-      label: { en: "Commercial", de: "Werbung" },
-      description: { en: "Commercial", de: "Werbung" },
+      label: { en: "Commercial Management", de: "Werbeverwaltung" },
+      description: { en: "Commercial Management", de: "Werbeverwaltung" },
     },
     advertisingBreak: {
-      label: { en: "Advertising break", de: "Werbepause" },
-      description: { en: "Advertising break", de: "Werbepause" },
+      label: { en: "Advertising Break", de: "Werbepause" },
+      description: { en: "Advertising Break", de: "Werbepause" },
     },
     editor: {
-      label: {
-        en: "Editor",
-        de: "Editor",
-      },
-      description: {
-        en: "Image editor",
-        de: "Bildeditor",
-      },
+      label: { en: "Editor", de: "Editor" },
+      description: { en: "Image Editor", de: "Bildeditor" },
     },
-
     statistics: {
       label: { en: "Statistics", de: "Statistiken" },
       description: { en: "Statistics", de: "Statistiken" },
@@ -70,8 +57,8 @@ export const dashboardMainItemsTrans = {
       description: { en: "Credits", de: "Credits" },
     },
     tariffAndPackages: {
-      label: { en: "Tariff and packages", de: "Tarife und Pakete" },
-      description: { en: "Tariff and packages", de: "Tarife und Pakete" },
+      label: { en: "Tariffs and Packages", de: "Tarife und Pakete" },
+      description: { en: "Tariffs and Packages", de: "Tarife und Pakete" },
     },
     account: {
       label: { en: "Account", de: "Konto" },
@@ -79,19 +66,20 @@ export const dashboardMainItemsTrans = {
     },
   },
 };
+
 export const dashboardUserProfileItemsTrans = {
   title: {
-    en: "User profile",
+    en: "User Profile",
     de: "Benutzerprofil",
   },
   description: {
-    en: "Here you have the opportunity to design and manage your personal user profile. Here you can manage your personal data, update your password and adjust your notification settings.",
-    de: "Hier haben Sie die Möglichkeit, Ihr persönliches Benutzerprofil zu gestalten und zu verwalten. Hier können Sie Ihre persönlichen Daten verwalten, Ihr Passwort aktualisieren und Ihre Benachrichtigungseinstellungen anpassen.",
+    en: "Here you can design and manage your personal user profile. You can manage your personal data, update your password, and adjust your notification settings.",
+    de: "Hier können Sie Ihr persönliches Benutzerprofil gestalten und verwalten. Sie können Ihre persönlichen Daten verwalten, Ihr Passwort aktualisieren und Ihre Benachrichtigungseinstellungen anpassen.",
   },
   group: {
     mySettings: {
-      label: { en: "My settings", de: "Meine Einstellungen" },
-      description: { en: "My settings", de: "Meine Einstellungen" },
+      label: { en: "My Settings", de: "Meine Einstellungen" },
+      description: { en: "My Settings", de: "Meine Einstellungen" },
     },
     changePassword: {
       label: { en: "Change Password", de: "Passwort ändern" },
@@ -107,52 +95,47 @@ export const dashboardUserProfileItemsTrans = {
     },
   },
 };
+
 export const dashboardUserManagementItemsTrans = {
   title: {
-    en: "User management",
+    en: "User Management",
     de: "Benutzerverwaltung",
   },
   description: {
-    en: "Here you have the possibility to manage other users, be it through invitations, activations or deactivations of accounts. Design your platform by managing users and adjusting their access and permissions.",
-    de: "Hier haben Sie die Möglichkeit, andere Benutzer zu verwalten, sei es durch Einladungen, Aktivierungen oder Deaktivierungen von Konten. Gestalten Sie Ihre Plattform, indem Sie Benutzer verwalten und deren Zugriff und Berechtigungen anpassen.",
+    en: "Here you can manage other users, such as by invitations, activations, or deactivations of accounts. Shape your platform by managing users and adjusting their access and permissions.",
+    de: "Hier können Sie andere Benutzer verwalten, sei es durch Einladungen, Aktivierungen oder Deaktivierungen von Konten. Gestalten Sie Ihre Plattform, indem Sie Benutzer verwalten und deren Zugriff und Berechtigungen anpassen.",
   },
   group: {
     createNewUser: {
-      label: { en: "Create new user", de: "Neuen Benutzer erstellen" },
-      description: { en: "Create new user", de: "Neuen Benutzer erstellen" },
+      label: { en: "Create New User", de: "Neuen Benutzer erstellen" },
+      description: { en: "Create New User", de: "Neuen Benutzer erstellen" },
     },
     userOverview: {
-      label: { en: "User overview", de: "Benutzerübersicht" },
-      description: { en: "User overview", de: "Benutzerübersicht" },
+      label: { en: "User Overview", de: "Benutzerübersicht" },
+      description: { en: "User Overview", de: "Benutzerübersicht" },
     },
     rolesAndPermissions: {
-      label: { en: "Roles and permissions", de: "Rollen und Berechtigungen" },
-      description: {
-        en: "Roles and permissions",
-        de: "Rollen und Berechtigungen",
-      },
+      label: { en: "Roles and Permissions", de: "Rollen und Berechtigungen" },
+      description: { en: "Roles and Permissions", de: "Rollen und Berechtigungen" },
     },
     activateDeactivate: {
-      label: { en: "Active / Deactivate", de: "Aktivieren / Deaktivieren" },
-      description: {
-        en: "Active / Deactivate",
-        de: "Aktivieren / Deaktivieren",
-      },
+      label: { en: "Activate / Deactivate", de: "Aktivieren / Deaktivieren" },
+      description: { en: "Activate / Deactivate", de: "Aktivieren / Deaktivieren" },
     },
     editUser: {
-      label: { en: "Edit user", de: "Benutzer bearbeiten" },
-      description: { en: "Edit user", de: "Benutzer bearbeiten" },
+      label: { en: "Edit User", de: "Benutzer bearbeiten" },
+      description: { en: "Edit User", de: "Benutzer bearbeiten" },
     },
     deleteUser: {
-      label: { en: "Delete user", de: "Benutzer löschen" },
-      description: { en: "Delete user", de: "Benutzer löschen" },
+      label: { en: "Delete User", de: "Benutzer löschen" },
+      description: { en: "Delete User", de: "Benutzer löschen" },
     },
   },
 };
 
 export const dashboardPartnerManagementItemsTrans = {
   title: {
-    en: "Partner management",
+    en: "Partner Management",
     de: "Partnerverwaltung",
   },
   description: {
@@ -161,33 +144,27 @@ export const dashboardPartnerManagementItemsTrans = {
   },
   group: {
     invitePartners: {
-      label: {
-        en: "Invite partners (companies)",
-        de: "Partner einladen (Unternehmen)",
-      },
-      description: {
-        en: "Invite partners (companies)",
-        de: "Partner einladen (Unternehmen)",
-      },
+      label: { en: "Invite Partners (Companies)", de: "Partner einladen (Unternehmen)" },
+      description: { en: "Invite Partners (Companies)", de: "Partner einladen (Unternehmen)" },
     },
     partnerOverview: {
-      label: { en: "Partner overview", de: "Partnerübersicht" },
-      description: { en: "Partner overview", de: "Partnerübersicht" },
+      label: { en: "Partner Overview", de: "Partnerübersicht" },
+      description: { en: "Partner Overview", de: "Partnerübersicht" },
     },
     partnerSettings: {
-      label: { en: "Partner settings", de: "Partnereinstellungen" },
-      description: { en: "Partner settings", de: "Partnereinstellungen" },
+      label: { en: "Partner Settings", de: "Partnereinstellungen" },
+      description: { en: "Partner Settings", de: "Partnereinstellungen" },
     },
     blockPartners: {
-      label: { en: "Block partners", de: "Partner blockieren" },
-      description: { en: "Block partners", de: "Partner blockieren" },
+      label: { en: "Block Partners", de: "Partner blockieren" },
+      description: { en: "Block Partners", de: "Partner blockieren" },
     },
   },
 };
 
 export const dashboardDisplayManagementItemsTrans = {
   title: {
-    en: "Display management",
+    en: "Display Management",
     de: "Anzeigenverwaltung",
   },
   description: {
@@ -196,55 +173,43 @@ export const dashboardDisplayManagementItemsTrans = {
   },
   group: {
     createDisplay: {
-      label: { en: "Create display", de: "Anzeige erstellen" },
-      description: { en: "Create display", de: "Anzeige erstellen" },
+      label: { en: "Create Display", de: "Anzeige erstellen" },
+      description: { en: "Create Display", de: "Anzeige erstellen" },
     },
     ownDisplayOverview: {
-      label: { en: "Own Display(s) overview", de: "Eigene Anzeigenübersicht" },
-      description: {
-        en: "Own Display(s) overview",
-        de: "Eigene Anzeigenübersicht",
-      },
+      label: { en: "Own Display Overview", de: "Eigene Anzeigenübersicht" },
+      description: { en: "Own Display Overview", de: "Eigene Anzeigenübersicht" },
     },
     partnerDisplayOverview: {
-      label: {
-        en: "Partner Display(s) overview",
-        de: "Partner-Anzeigenübersicht",
-      },
-      description: {
-        en: "Partner Display(s) overview",
-        de: "Partner-Anzeigenübersicht",
-      },
+      label: { en: "Partner Display Overview", de: "Partner-Anzeigenübersicht" },
+      description: { en: "Partner Display Overview", de: "Partner-Anzeigenübersicht" },
     },
     duplicateDisplay: {
-      label: { en: "Duplicate display", de: "Anzeige duplizieren" },
-      description: { en: "Duplicate display", de: "Anzeige duplizieren" },
+      label: { en: "Duplicate Display", de: "Anzeige duplizieren" },
+      description: { en: "Duplicate Display", de: "Anzeige duplizieren" },
     },
     editDisplay: {
-      label: { en: "Edit display", de: "Anzeige bearbeiten" },
-      description: { en: "Edit display", de: "Anzeige bearbeiten" },
+      label: { en: "Edit Display", de: "Anzeige bearbeiten" },
+      description: { en: "Edit Display", de: "Anzeige bearbeiten" },
     },
     activateDeactivate: {
       label: { en: "Activate / Deactivate", de: "Aktivieren / Deaktivieren" },
-      description: {
-        en: "Activate / Deactivate",
-        de: "Aktivieren / Deaktivieren",
-      },
+      description: { en: "Activate / Deactivate", de: "Aktivieren / Deaktivieren" },
     },
     lockUnlock: {
       label: { en: "Lock / Unlock", de: "Sperren / Entsperren" },
       description: { en: "Lock / Unlock", de: "Sperren / Entsperren" },
     },
     displayShutdown: {
-      label: { en: "Display shutdown", de: "Anzeige ausschalten" },
-      description: { en: "Display shutdown", de: "Anzeige ausschalten" },
+      label: { en: "Display Shutdown", de: "Anzeige ausschalten" },
+      description: { en: "Display Shutdown", de: "Anzeige ausschalten" },
     },
   },
 };
 
 export const dashboardMediaPoolItemsTrans = {
   title: {
-    en: "Media pool management",
+    en: "Media Pool Management",
     de: "Medienpool-Verwaltung",
   },
   description: {
@@ -253,31 +218,31 @@ export const dashboardMediaPoolItemsTrans = {
   },
   group: {
     uploadMedia: {
-      label: { en: "Upload media", de: "Medien hochladen" },
-      description: { en: "Upload media", de: "Medien hochladen" },
+      label: { en: "Upload Media", de: "Medien hochladen" },
+      description: { en: "Upload Media", de: "Medien hochladen" },
     },
     mediaPoolOverview: {
-      label: { en: "Media pool overview", de: "Medienpool-Übersicht" },
-      description: { en: "Media pool overview", de: "Medienpool-Übersicht" },
+      label: { en: "Media Pool Overview", de: "Medienpool-Übersicht" },
+      description: { en: "Media Pool Overview", de: "Medienpool-Übersicht" },
     },
     editMediaPool: {
-      label: { en: "Edit media pool", de: "Medienpool bearbeiten" },
-      description: { en: "Edit media pool", de: "Medienpool bearbeiten" },
+      label: { en: "Edit Media Pool", de: "Medienpool bearbeiten" },
+      description: { en: "Edit Media Pool", de: "Medienpool bearbeiten" },
     },
     archiveMedia: {
-      label: { en: "Archive media", de: "Medien archivieren" },
-      description: { en: "Archive media", de: "Medien archivieren" },
+      label: { en: "Archive Media", de: "Medien archivieren" },
+      description: { en: "Archive Media", de: "Medien archivieren" },
     },
     deleteMedia: {
-      label: { en: "Delete media", de: "Medien löschen" },
-      description: { en: "Delete media", de: "Medien löschen" },
+      label: { en: "Delete Media", de: "Medien löschen" },
+      description: { en: "Delete Media", de: "Medien löschen" },
     },
   },
 };
 
 export const dashboardCommercialManagementItemsTrans = {
   title: {
-    en: "Commercial management",
+    en: "Commercial Management",
     de: "Werbeverwaltung",
   },
   description: {
@@ -286,49 +251,43 @@ export const dashboardCommercialManagementItemsTrans = {
   },
   group: {
     createCommercial: {
-      label: { en: "Create a commercial", de: "Werbespot erstellen" },
-      description: { en: "Create a commercial", de: "Werbespot erstellen" },
+      label: { en: "Create Commercial", de: "Werbespot erstellen" },
+      description: { en: "Create Commercial", de: "Werbespot erstellen" },
     },
     commercialOverview: {
-      label: { en: "Commercial overview", de: "Werbeübersicht" },
-      description: { en: "Commercial overview", de: "Werbeübersicht" },
+      label: { en: "Commercial Overview", de: "Werbeübersicht" },
+      description: { en: "Commercial Overview", de: "Werbeübersicht" },
     },
     duplicateCommercial: {
-      label: { en: "Duplicate commercial", de: "Werbespot duplizieren" },
-      description: { en: "Duplicate commercial", de: "Werbespot duplizieren" },
+      label: { en: "Duplicate Commercial", de: "Werbespot duplizieren" },
+      description: { en: "Duplicate Commercial", de: "Werbespot duplizieren" },
     },
     editCommercial: {
-      label: { en: "Edit commercial", de: "Werbespot bearbeiten" },
-      description: { en: "Edit commercial", de: "Werbespot bearbeiten" },
+      label: { en: "Edit Commercial", de: "Werbespot bearbeiten" },
+      description: { en: "Edit Commercial", de: "Werbespot bearbeiten" },
     },
     lockUnlockCommercial: {
-      label: {
-        en: "Lock / Unlock commercial",
-        de: "Werbespot sperren / entsperren",
-      },
-      description: {
-        en: "Lock / Unlock commercial",
-        de: "Werbespot sperren / entsperren",
-      },
+      label: { en: "Lock / Unlock Commercial", de: "Werbespot sperren / entsperren" },
+      description: { en: "Lock / Unlock Commercial", de: "Werbespot sperren / entsperren" },
     },
     archiveCommercial: {
-      label: { en: "Archive commercial", de: "Werbespot archivieren" },
-      description: { en: "Archive commercial", de: "Werbespot archivieren" },
+      label: { en: "Archive Commercial", de: "Werbespot archivieren" },
+      description: { en: "Archive Commercial", de: "Werbespot archivieren" },
     },
     replaceCommercial: {
-      label: { en: "Replace commercial", de: "Werbespot ersetzen" },
-      description: { en: "Replace commercial", de: "Werbespot ersetzen" },
+      label: { en: "Replace Commercial", de: "Werbespot ersetzen" },
+      description: { en: "Replace Commercial", de: "Werbespot ersetzen" },
     },
     deleteCommercial: {
-      label: { en: "Delete commercial", de: "Werbespot löschen" },
-      description: { en: "Delete commercial", de: "Werbespot löschen" },
+      label: { en: "Delete Commercial", de: "Werbespot löschen" },
+      description: { en: "Delete Commercial", de: "Werbespot löschen" },
     },
   },
 };
 
 export const dashboardAdBlockManagementItemsTrans = {
   title: {
-    en: "Ad block management",
+    en: "Ad Block Management",
     de: "Werbeblock-Verwaltung",
   },
   description: {
@@ -337,34 +296,31 @@ export const dashboardAdBlockManagementItemsTrans = {
   },
   group: {
     createAdBlock: {
-      label: { en: "Create ad block", de: "Werbeblock erstellen" },
-      description: { en: "Create ad block", de: "Werbeblock erstellen" },
+      label: { en: "Create Ad Block", de: "Werbeblock erstellen" },
+      description: { en: "Create Ad Block", de: "Werbeblock erstellen" },
     },
     adBlockOverview: {
-      label: { en: "Ad block overview", de: "Werbeblock-Übersicht" },
-      description: { en: "Ad block overview", de: "Werbeblock-Übersicht" },
+      label: { en: "Ad Block Overview", de: "Werbeblock-Übersicht" },
+      description: { en: "Ad Block Overview", de: "Werbeblock-Übersicht" },
     },
     duplicateAdBlock: {
-      label: { en: "Duplicate ad block", de: "Werbeblock duplizieren" },
-      description: { en: "Duplicate ad block", de: "Werbeblock duplizieren" },
+      label: { en: "Duplicate Ad Block", de: "Werbeblock duplizieren" },
+      description: { en: "Duplicate Ad Block", de: "Werbeblock duplizieren" },
     },
     editAdBlock: {
-      label: { en: "Edit advertising block", de: "Werbeblock bearbeiten" },
-      description: {
-        en: "Edit advertising block",
-        de: "Werbeblock bearbeiten",
-      },
+      label: { en: "Edit Ad Block", de: "Werbeblock bearbeiten" },
+      description: { en: "Edit Ad Block", de: "Werbeblock bearbeiten" },
     },
     deleteAdBlock: {
-      label: { en: "Delete ad block", de: "Werbeblock löschen" },
-      description: { en: "Delete ad block", de: "Werbeblock löschen" },
+      label: { en: "Delete Ad Block", de: "Werbeblock löschen" },
+      description: { en: "Delete Ad Block", de: "Werbeblock löschen" },
     },
   },
 };
 
 export const dashboardBroadcastManagementItemsTrans = {
   title: {
-    en: "Broadcast management",
+    en: "Broadcast Management",
     de: "Sendungsverwaltung",
   },
   description: {
@@ -373,24 +329,24 @@ export const dashboardBroadcastManagementItemsTrans = {
   },
   group: {
     scheduleBroadcast: {
-      label: { en: "Schedule new broadcast", de: "Neue Sendung planen" },
-      description: { en: "Schedule new broadcast", de: "Neue Sendung planen" },
+      label: { en: "Schedule New Broadcast", de: "Neue Sendung planen" },
+      description: { en: "Schedule New Broadcast", de: "Neue Sendung planen" },
     },
     broadcastOverview: {
-      label: { en: "Broadcast overview", de: "Sendungsübersicht" },
-      description: { en: "Broadcast overview", de: "Sendungsübersicht" },
+      label: { en: "Broadcast Overview", de: "Sendungsübersicht" },
+      description: { en: "Broadcast Overview", de: "Sendungsübersicht" },
     },
     duplicateBroadcast: {
-      label: { en: "Duplicate broadcast", de: "Sendung duplizieren" },
-      description: { en: "Duplicate broadcast", de: "Sendung duplizieren" },
+      label: { en: "Duplicate Broadcast", de: "Sendung duplizieren" },
+      description: { en: "Duplicate Broadcast", de: "Sendung duplizieren" },
     },
     placeBroadcast: {
-      label: { en: "Place broadcast", de: "Sendung platzieren" },
-      description: { en: "Place broadcast", de: "Sendung platzieren" },
+      label: { en: "Place Broadcast", de: "Sendung platzieren" },
+      description: { en: "Place Broadcast", de: "Sendung platzieren" },
     },
     editBroadcast: {
-      label: { en: "Edit broadcast", de: "Sendung bearbeiten" },
-      description: { en: "Edit broadcast", de: "Sendung bearbeiten" },
+      label: { en: "Edit Broadcast", de: "Sendung bearbeiten" },
+      description: { en: "Edit Broadcast", de: "Sendung bearbeiten" },
     },
   },
 };
@@ -402,24 +358,24 @@ export const dashboardStatisticsItemsTrans = {
   },
   description: {
     en: "Access comprehensive statistics on your commercials, broadcasts, and displays.",
-    de: "Zugriff auf umfassende Statistiken zu Ihren Werbespots, Sendungen und Anzeigen.",
+    de: "Greifen Sie auf umfassende Statistiken zu Ihren Werbespots, Sendungen und Anzeigen zu.",
   },
   group: {
     displayStatistics: {
-      label: { en: "Display statistics", de: "Anzeigenstatistiken" },
-      description: { en: "Display statistics", de: "Anzeigenstatistiken" },
+      label: { en: "Display Statistics", de: "Anzeigenstatistiken" },
+      description: { en: "Display Statistics", de: "Anzeigenstatistiken" },
     },
     commercialStatistics: {
-      label: { en: "Commercial statistics", de: "Werbestatistiken" },
-      description: { en: "Commercial statistics", de: "Werbestatistiken" },
+      label: { en: "Commercial Statistics", de: "Werbestatistiken" },
+      description: { en: "Commercial Statistics", de: "Werbestatistiken" },
     },
     broadcastStatistics: {
-      label: { en: "Broadcast statistics", de: "Sendungsstatistiken" },
-      description: { en: "Broadcast statistics", de: "Sendungsstatistiken" },
+      label: { en: "Broadcast Statistics", de: "Sendungsstatistiken" },
+      description: { en: "Broadcast Statistics", de: "Sendungsstatistiken" },
     },
     revenueExpenditure: {
-      label: { en: "Revenue expenditure", de: "Einnahmen und Ausgaben" },
-      description: { en: "Revenue expenditure", de: "Einnahmen und Ausgaben" },
+      label: { en: "Revenue and Expenditure", de: "Einnahmen und Ausgaben" },
+      description: { en: "Revenue and Expenditure", de: "Einnahmen und Ausgaben" },
     },
   },
 };
@@ -435,19 +391,19 @@ export const dashboardCreditsItemsTrans = {
   },
   group: {
     buyCredits: {
-      label: { en: "Buy credits", de: "Credits kaufen" },
-      description: { en: "Buy credits", de: "Credits kaufen" },
+      label: { en: "Buy Credits", de: "Credits kaufen" },
+      description: { en: "Buy Credits", de: "Credits kaufen" },
     },
     creditsStatement: {
-      label: { en: "Credits statement", de: "Credit-Übersicht" },
-      description: { en: "Credits statement", de: "Credit-Übersicht" },
+      label: { en: "Credits Statement", de: "Credit-Übersicht" },
+      description: { en: "Credits Statement", de: "Credit-Übersicht" },
     },
   },
 };
 
 export const dashboardTariffAndPackagesItemsTrans = {
   title: {
-    en: "Tariff and packages",
+    en: "Tariffs and Packages",
     de: "Tarife und Pakete",
   },
   description: {
