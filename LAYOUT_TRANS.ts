@@ -8,7 +8,7 @@ export const LayoutTrans = {
     linkTwo: { en: "Privacy Policy", de: "Datenschutzerklärung" },
     linkThree: { en: "Legal Notice", de: "Impressum" },
     linkFour: {
-      en: "Information About Cookies",
+      en: "Informations About Cookies",
       de: "Informationen über Cookies",
     },
   },
