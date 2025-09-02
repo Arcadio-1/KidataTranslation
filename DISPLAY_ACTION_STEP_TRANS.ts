@@ -20,8 +20,8 @@ export const DisplayActionStepTrans = {
   cancelModal: {
     title: {
       text1: { en: "Would you like to ", de: "Möchten Sie " },
-      text2: { en: "save the display", de: "die Anzeige speichern" },
-      text3: { en: " as a draft before exiting?", de: ", bevor Sie beenden?" },
+      text2: { en: "save the display", de: "die Anzeige " },
+      text3: { en: " as a draft before exiting?", de: "als Entwurf speichern, bevor Sie beenden?" },
     },
     actions: {
       save: { en: "Save as draft", de: "Als Entwurf speichern" },
