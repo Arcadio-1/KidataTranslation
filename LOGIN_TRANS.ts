@@ -13,20 +13,20 @@ export const LoginTrans = {
     items: {
       email: {
         label: {
-          en: "E-mail address (is also your username)",
+          en: "E-mail Address (is also your username)",
           de: "E-Mail-Adresse (ist auch Ihr Benutzername)",
         },
         placeHolder: {
-          en: "Enter your email address here",
+          en: "Enter your E-mail Address here",
           de: "Geben Sie hier Ihre E-Mail-Adresse ein",
         },
         validationMsg: {
           required: {
-            en: "Email Field Is Required",
+            en: "E-mail Field Is Required",
             de: "Das E-Mail-Feld ist erforderlich",
           },
           invalid: {
-            en: "Email Field Is Invalid",
+            en: "E-mail Field Is Invalid",
             de: "Das E-Mail-Feld ist ungültig",
           },
         },
@@ -66,7 +66,7 @@ export const LoginTrans = {
     },
     validationMsg: {
       invalidPassword: {
-        en: "You Enter Invalid Email Or Password",
+        en: "You Enter Invalid E-mail Or Password",
         de: "Sie haben eine ungültige E-Mail-Adresse oder ein ungültiges Passwort eingegeben",
       },
       invalidEmail: {
