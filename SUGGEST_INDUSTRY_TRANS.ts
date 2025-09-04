@@ -77,11 +77,11 @@ export const SuggestIndustryTrans = {
   },
   successMessage: {
     title: {
-      en: "Thank you, your industry proposal has been sent to us!",
+      en: "Thank you, your industry suggestion has been sent to us!",
       de: "Vielen Dank, Ihr Branchenvorschlag wurde an uns gesendet!",
     },
     subtitle: {
-      en: "We will review your suggestion and let you know via email when your industry has been activated. Then you can select your suggested industry",
+      en: "We will review your suggestion and let you know via E-mail when your industry has been activated. Then you can select your suggested industry",
       de: "Wir werden Ihren Vorschlag prüfen und Sie per E-Mail benachrichtigen, sobald Ihre Branche freigeschaltet ist. Dann können Sie Ihre vorgeschlagene Branche auswählen",
     },
     action: {
