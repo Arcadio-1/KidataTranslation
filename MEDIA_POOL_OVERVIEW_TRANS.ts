@@ -224,7 +224,7 @@ export const MediaPoolOverviewTrans = {
           header: {
             title: {
               en: "Keywords",
-              de: "Titel / Schlüsselwörter",
+              de: "Schlüsselwörter",
             },
             subtitle: {
               en: "Search file by keywords.",
@@ -270,7 +270,7 @@ export const MediaPoolOverviewTrans = {
           delete: {
             label: { en: "Delete", de: "Löschen" },
             confirmation: {
-              title: { en: "Delete Files", de: "Dateien löschen" },
+              title: { en: "Delete files", de: "Dateien löschen" },
               description: {
                 en: "Are you sure you want to delete this files?",
                 de: "Sind Sie sicher, dass Sie diese Dateien löschen möchten?",
@@ -316,7 +316,7 @@ export const MediaPoolOverviewTrans = {
       },
       ID: {
         title: {
-          en: "Id",
+          en: "ID",
           de: "ID",
         },
       },
@@ -604,7 +604,7 @@ export const MediaPoolOverviewTrans = {
               },
             },
             message: {
-              en: "Only image can set as Background!",
+              en: "Only images can set as Background!",
               de: "Nur Bilder können als Hintergrund festgelegt werden!",
             },
             actions: {
@@ -699,14 +699,14 @@ export const MediaPoolOverviewTrans = {
             },
             unArchive: {
               en: "Unarchive",
-              de: "Wiederherstellen",
+              de: "Aus dem Archiv holen",
             },
           },
           label: {
             archived: {
               title: {
                 en: "Unarchive",
-                de: "Wiederherstellen",
+                de: "Aus dem Archiv holen",
               },
               message: {
                 en: "if you archive the file, you can't edit it or use in commercials",
@@ -943,7 +943,7 @@ export const MediaPoolOverviewTrans = {
             },
             validationMsg: {
               required: {
-                en: "has Sound field is required",
+                en: "Sound field is required",
                 de: "Das Feld 'Ton' ist erforderlich",
               },
               invalid: {
