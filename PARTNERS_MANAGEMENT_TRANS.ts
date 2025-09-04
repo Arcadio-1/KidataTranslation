@@ -67,11 +67,11 @@ export const PartnerManagementTrans = {
         message: {
           title: { en: "Invitation sent", de: "Einladung gesendet" },
           subTitle: {
-            en: "Your invitation has been sent to",
+            en: "Your invitation has been sent ",
             de: "Ihre Einladung wurde gesendet an",
           },
           action: {
-            ok: { en: "ok", de: "OK" },
+            ok: { en: "Ok", de: "OK" },
           },
         },
       },
@@ -138,7 +138,7 @@ export const PartnerManagementTrans = {
     },
     sharedDisplays: {
       columns: {
-        idAndType: { label: { en: "Id / Type", de: "ID / Typ" } },
+        idAndType: { label: { en: "ID / Type", de: "ID / Typ" } },
         preview: { label: { en: "preview", de: "Vorschau" } },
         titleAndDescription: {
           label: { en: "Title / Description", de: "Titel / Beschreibung" },
