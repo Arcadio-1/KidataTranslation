@@ -2,8 +2,8 @@ export const ResetPasswordTrans = {
   header: {
     title: { en: "Reset Password", de: "Passwort zurücksetzen" },
     subtitle: {
-      en: "You have requested a password reset for",
-      de: "Sie haben eine Passwortzurücksetzung für beantragt",
+      en: "You have requested a password reset ",
+      de: "Sie haben eine Passwortzurücksetzung beantragt",
     },
   },
   form: {
@@ -86,7 +86,7 @@ export const ResetPasswordTrans = {
       de: "Ihr Passwort wurde erfolgreich zurückgesetzt!",
     },
     subtitle: {
-      en: "For security reasons, an email was sent to confirm this change to your account",
+      en: "For security reasons, an E-mail was sent to confirm this change to your account",
       de: "Aus Sicherheitsgründen wurde eine E-Mail zur Bestätigung dieser Änderung an Ihr Konto gesendet",
     },
     action: {
