@@ -17,7 +17,7 @@ export const RouteTitlesTrans = {
       de: "E-Mail bestätigen | KIData",
     },
     forgotPassword: {
-      en: "Forget Password | KIData",
+      en: "Forgot Password | KIData",
       de: "Passwort vergessen | KIData",
     },
     resetPassword: {
@@ -62,7 +62,7 @@ export const RouteTitlesTrans = {
     },
     advertisingBreak: {
       en: "Advertising Management | KIData",
-      de: "Werbepausenverwaltung | KIData",
+      de: "Werbeverwaltung | KIData",
     },
     statistics: {
       en: "Statistics | KIData",
